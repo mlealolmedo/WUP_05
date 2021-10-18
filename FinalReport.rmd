@@ -56,7 +56,13 @@ In the data above, you can see that the 58% of females that took the triUmpsal r
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+The P value for the fisher exact test is very small, there is a difference between the Chi-Square number which was 15 vs the df number which was 1. So I reject the null hypothesis. The fisher tests show that if you take the preventive drug you are 1.5 times likely to get aids vs if you took the placebo. The data shows the placebo is ineffective
 
 # Discussion and Conclusion
 
