@@ -40,6 +40,8 @@ barchartGC(~infected + treatment,data=females, type="percent")
 
 ```
 
+According to this bar graph, the drug did not seem to work in the females population. The females that took the drug ended up getting aids vs the females that took the placebo.
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
