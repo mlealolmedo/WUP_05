@@ -67,3 +67,5 @@ The P value for the fisher exact test is very small, there is a difference betwe
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In conclusion the females that took the triUmpsal drug ended up getting more aids than the females that took the placebo, so the drug did not work. The 210 females that took the drug ended up getting the aids vs the 147 females that took the placebo got aids. The P value for the fisher test was very small at 0.0001, so for this reason we reject the hypothesis.
