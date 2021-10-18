@@ -45,6 +45,13 @@ According to this bar graph, the drug did not seem to work in the females popula
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+table1 <- xtabs(~infected + treatment, data=females)
+rowPerc(table1)
+colPerc(table1)
+```
+
+In the data above, you can see that the 58% of females that took the triUmpsal resulted in getting aids, and the 41% that took the placebo resulted in getting aids but not as much as the females that took the triUmpsal. So more females who took triUmpsal got aids vs the females taking the placebo.
 
 ## Inferential Results
 
